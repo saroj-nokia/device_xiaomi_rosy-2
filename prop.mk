@@ -2,6 +2,9 @@
 # system.prop for rosy
 #
 
+# APEx
+ro.apex.updatable=true
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.media_vol_steps=25 \
@@ -311,3 +314,7 @@ wifi.interface=wlan0
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+zygote.critical_window.minute=10
