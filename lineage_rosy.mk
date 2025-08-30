@@ -23,7 +23,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME :=  lineage_rosy
+PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5
