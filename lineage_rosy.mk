@@ -16,9 +16,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit some common PixelExperience stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Gapps
--include vendor/gapps/arm64/arm64-vendor.mk
-
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
