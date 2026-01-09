@@ -1,2 +1,0 @@
-allow bootanim system_data_file:dir { search read open };
-get_prop(bootanim, userspace_reboot_exported_prop);
